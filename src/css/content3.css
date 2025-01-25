@@ -1,0 +1,92 @@
+.ourcaus {
+    margin-bottom: 120px;
+}
+.ourtext {
+    margin: 50px 0;
+    color: #5a6f80;
+    font-size: 3rem;
+    text-align: center;
+}
+.ourcards {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+.cardstext {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.cardstext h3 {
+    font-size: 1.5rem;
+    color: #5bc1bf;
+}
+.cardstext h5 {
+    color: rgb(90, 111, 128, 0.7);
+    font-weight: 100;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+.divclas {
+    width: 28%;
+    height: 100%;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.divclas:hover {
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.3);
+}
+.ourcards div img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+.cubux {
+    width: 90%;
+    height: 5px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #e9eaeb;
+    margin-bottom: 10px;
+}
+.ici {
+    width: 70%;
+    background-color: black;
+    height: 100%;
+    border-radius: 10px;
+}
+.ourdolar {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.ourdonate {
+    width: 100%;
+    background-color: #5a6f80;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 0 0 20px 20px;
+    padding: 16px;
+}
+.ourdonate a {
+    font-size: 1.2rem;
+}
+.ourdonate:hover {
+    background-color: #5bc1ac;
+    cursor: pointer;
+    transition: 0.3s;
+}
+@media (max-width: 1100px) {
+    .ourcards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .divclas {
+        width: 80%;
+        margin-bottom: 70px;
+
+    }}

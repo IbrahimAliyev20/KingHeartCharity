@@ -1,0 +1,19 @@
+.butonbg{
+    background-color:rgb(80, 80, 80,0.8);
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 50px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+    padding: 20px;
+}
+.butonbg:hover{
+    background-color: rgb(101, 193, 174,0.8);
+    transition: 0.4s;
+}
+.slides:hover .butonbg{
+    opacity: 1;
+    pointer-events: auto;
+}

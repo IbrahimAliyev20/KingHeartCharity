@@ -1,0 +1,207 @@
+.birincicard-ardi{
+    width: 80%;
+    margin: auto;
+}
+.dirnaq-text{
+    background-color:#f0f8ff ;
+    width: 100%;
+}
+.dirnaq-text h3{
+    text-align: center;
+    font-size: 3rem;
+    padding: 50px 0 0 0;
+}
+.dirnaq-text h4{
+    text-align: center;
+    width: 100%;
+    padding: 0 50px 70px ;
+    font-size: 1.5rem;
+    font-weight: 500;   
+}
+.ikili-sekil{
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.ikili-sekil img{
+    width: 48%;
+    border-radius: 20px;
+}
+.birincicard-ardi h5{
+    color: rgb(0, 0, 0,0.4);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.birincicard-ardi hr{
+    width: 100%;
+    height: 1px;
+    margin: 20px 0;
+    color: rgb(0, 0, 0,0.2);
+}
+.donat{
+    display: flex;
+    gap: 3%;
+}
+.donat a {
+    color: rgb(0, 0, 0,0.5);
+    padding: 2px 8px;
+    border: 1px solid rgb(0, 0, 0,0.1);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.donat a:hover{
+    border: 1px solid rgb(0, 0, 0);
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+}
+.donat-links{
+    display: flex;
+    justify-content: space-between;
+}
+.link-deatils{
+    color: white;
+    display: flex;
+}
+.fa{
+    background-color: black;
+    border-radius: 20px;
+    padding: 7px;
+    font-size: 2rem;
+    margin-left: 10px;
+}
+.fa:hover{
+    background-color: #5bc1ac;
+}
+
+.jack-com{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    margin: 30px 0;
+}
+.wilson-com{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    margin: 30px 0;
+}
+.daisy-com{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    margin: 30px 0;
+    width: 80%;
+    margin-left: 50px;
+}
+.jack-com img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.wilson-com img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.daisy-com img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.like-reply{
+    display: flex;
+    gap: 3%;
+
+}
+.like-reply p{
+    margin-top: 6px;
+    font-weight: 700;
+}
+.like-reply p:hover{
+   color:#5bc1b4 ; 
+   cursor: pointer;
+}
+.jack-text h4{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+.jack-text p{
+    color: rgb(0, 0, 0 ,0.5);
+}
+
+.write-comment{
+
+}
+.coment-listng{
+    background-color:#f0f8ff ;
+    border-radius: 10px;
+    width: 100%;
+}
+.coment-buton {
+    display: flex;
+    justify-content: end;
+}
+.coment-buton button{
+    margin: 10px;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 60px;
+    font-size: 1.1rem;
+    color: white;
+    background-color:#5a6f80 ;
+    cursor: pointer;
+}
+.coment-buton button:hover{
+    background-color: #5bc1b4;
+}
+.related-news-{
+    background-color: #f0f8ff;
+}
+.related-news2{
+    width: 80%;
+    margin: auto;
+}
+.related-news2 h4{
+    font-size: 2.2rem;
+    color: #5a6f80;
+    margin-top: 50px;
+    padding: 50px 0 0 0;
+    
+}
+.listing-footer{
+    display: flex;
+    gap: 2%;
+    padding: 20px;
+}
+
+@media (max-width: 1000px) {
+    .ikili-sekil{
+        flex-direction: column;
+        
+    }
+    .ikili-sekil img{
+        width: 100%;
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+    .listing-footer{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+}
+@media (max-width: 500px){
+    .link-deatils{
+        display: none;
+    }
+}

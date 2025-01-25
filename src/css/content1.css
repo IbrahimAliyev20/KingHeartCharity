@@ -1,0 +1,63 @@
+@tailwind components;
+@tailwind utilities;
+.carusel {
+    width: 100%;
+    height: 100%;
+}
+.slides {
+    width: 100%;
+    height: 820px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.sekil1 {
+    width: 100%;
+    height: auto;
+}
+.welc{
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 90px 0 60px 0 ;
+    color: #5a6f80;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+.wel-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+.wel-cards div a{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    font-size: 1.4rem;
+    color: #5bc1ac;
+
+}
+.wel-cards div:hover{
+    box-shadow: 0px 10px 60px rgb(0, 0, 0, 0.15);
+    border-radius: 30px ;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.wel-cards div:hover a img{
+    transform: scale(0.8);
+    transition: transform 0.6s ease;
+}
+.wel-cards div a img{
+    margin-bottom: 30px;
+}
+
+
+
+@media (max-width: 1400px){.slides {width: 100%;max-height: 600px;}}
+@media (max-width: 1000px){.slides {width: 100%; max-height: 500px;}.wel-cards{grid-template-columns: repeat(3, 1fr);}}
+@media (max-width: 800px) {.slides {width: 100%;max-height: 480px;}.welc{font-size: 1.8rem;} .wel-cards{grid-template-columns: repeat(2, 1fr);}}
+@media (max-width: 700px) {.slides {width: 100%;height: 300px;}.wel-cards{grid-template-columns: 1fr;}}
+@media (max-width: 450px) {.slides { width: 100%;height: 250px;}.sekil1 {width: 100%;height: auto;}.welc{font-size: 1.3rem;} .wel-cards div a{padding: 0px;}}
+@media (max-width: 380px) {.slides {width: 100%;height: 150px;}.sekil1 {width: 100%;height: auto;}}
+    

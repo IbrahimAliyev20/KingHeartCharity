@@ -1,0 +1,142 @@
+.yardim{
+    width: 100%;
+    position: relative;
+}
+.yardim .icon{
+    text-align: center;
+    font-size: 4rem;
+    margin: 10px;
+    color: #596e7f;
+    cursor: pointer;
+}
+.cards-yardm{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(0, 0, 0,0.2);
+    align-items: center;
+    gap: 1%;
+    position: relative;
+}
+.yardm-sekil{
+    width: 25%;
+}
+.yardm-sekil img{
+    width: 85%;
+    box-shadow: 0 0 20px 1px rgb(0, 0, 0,0.3);
+}
+.basliq-aciqlama{
+    display: flex;
+    flex-direction: column;
+}
+.basliq-aciqlama h2{
+    width: fit-content;
+    margin-bottom: 10%;
+    color: white;
+    background-color: #4d7bc7;
+    border-radius: 20%;
+    padding: 2%;
+    opacity: 0.9;
+}
+.basliq-aciqlama p{
+    font-size: 1.1rem;
+}
+.cards-yardm button{
+    font-size: 1.1rem;
+    padding: 1%;
+    border: none;
+    background-color:#5abfab;
+    color: white;
+    position: absolute;
+    border-radius:10px;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.cards-yardm button:hover{
+    transform: translateY(0) scale(1.07);
+    box-shadow: 0 0 10px rgb(0, 0, 0,0.4);
+    border-radius: 30px 0 30px 0;
+}
+
+.cards-yardm input{
+    position: absolute;
+    font-size: 1rem;
+    padding: 0.5%;
+    border-radius: 10px;
+    border: 2px solid #5abfab;
+    outline: none;
+    top:4%;
+    right: 5%;
+}
+.sebet-daxil {
+    width: 40%;
+    margin: auto;
+}
+.sebet-daxil ul li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.sil-button{
+    font-size: 1rem;
+    background-color: #5abfab;
+    color: white;
+    padding: 1%;
+    border: none;
+    border-radius: 10px;
+}
+.sebet-yazi{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-right: 1%;
+    display: flex;
+    align-items: center;
+}
+.sebet-yazi img{
+    width: 10%;
+    text-align: c;
+}
+.toplam{
+    margin-top: 30px;
+    font-size: 1rem;
+}
+@media (max-width: 1000px) {
+    .cards-yardm{
+        flex-direction: column;
+        width: 100%;
+    }
+    .yardm-sekil{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .yardm-sekil img{
+        width:80%;
+        margin-bottom: 20px;
+    }
+    .basliq-aciqlama{
+        width: 80%;
+    }
+    .cards-yardm button{
+        position: inherit;
+        margin-top: 20px;
+
+    }
+    .basliq-aciqlama h2{
+        margin-bottom: 10px;
+    }
+    .cards-yardm input{
+        position: inherit;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .sebet-daxil{
+        width: 80%;
+    }
+}
