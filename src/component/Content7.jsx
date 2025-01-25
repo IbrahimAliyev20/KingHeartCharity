@@ -4,9 +4,6 @@ import '../css/content7.css'
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineLocalPostOffice } from "react-icons/md";
 import { LuPhone } from "react-icons/lu";
-import { Link } from 'react-router-dom'
-
-
 
 function Content7() {
   return (

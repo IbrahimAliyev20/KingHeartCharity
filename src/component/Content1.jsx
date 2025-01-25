@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/Content1.css'
+import '../css/content1.css'
 import Carousel from './Carousel'
 import hands from '../image/hands.png'
 import heart from '../image/heart.png'

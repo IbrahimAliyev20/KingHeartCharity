@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/Content8.css'
+import '../css/content8.css'
 import BirinciCard from './BirinciCard'
 import IkinciCard from './IkinciCard'
 import SearchHisse from './SearchHisse'
